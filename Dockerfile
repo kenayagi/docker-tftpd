@@ -6,6 +6,4 @@ EXPOSE 69/udp
 
 VOLUME /var/tftpboot
 
-ENTRYPOINT ["in.tftpd"]
-
-CMD ["--foreground", "--secure", "/var/tftpboot"]
+CMD /usr/sbin/in.tftpd --foreground --secure /var/tftpboot --verbose
