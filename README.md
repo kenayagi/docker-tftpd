@@ -1,1 +1,3 @@
-# docker-tftpd
+TFTPd-hpa
+
+A simple TFTP server dockerized.
